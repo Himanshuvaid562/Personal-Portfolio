@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,textarea,button{
+  all: unset;
+  box-sizing:border-box;
+  display:block;
+  width:100%;
+}
+
+button{
+  cursor: pointer;
+}
+input:focus,textarea:focus,button:focus{
+  outline:none;
+} */
+
+.DarkElegent{
+  background-color: red;
+}
+
