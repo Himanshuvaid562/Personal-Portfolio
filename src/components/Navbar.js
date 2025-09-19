@@ -49,7 +49,6 @@ export default function Navbar() {
                 Projects
               </a>
               <ul className="dropdown-menu">
-                Currently unavailable
                 {/* <li>
                   <a className="dropdown-item" href="#">
                     Secure Chatting Web App
