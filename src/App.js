@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Curr from "./components/Curr";
+// import Curr from "./components/Curr";
 // import Tic from "./components/tic";
 // import Rps from "./components/rps";
 import Resume from "./components/resume";
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Curr" element={<div className="Project-container"><Curr /></div>} />
+        {/* <Route path="/Curr" element={<div className="Project-container"><Curr /></div>} /> */}
         {/* <Route path="/tic" element={<Tic />} /> */}
         {/* <Route path="/rps" element={<Rps />} /> */}
         <Route path="/Contact" element={<Contact />}/>
