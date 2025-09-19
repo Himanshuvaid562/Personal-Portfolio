@@ -50,27 +50,28 @@ export default function Navbar() {
                 Projects
               </a>
               <ul className="dropdown-menu">
+                Under Maintenance
                 {/* <li>
                   <a className="dropdown-item" href="#">
                     Secure Chatting Web App
                   </a>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link className="dropdown-item" to="/Curr">
                     Currency Convertor
                   </Link>
                 </li>
-                <li></li>
-                <li>
+                <li></li> */}
+                {/* <li>
                   <Link to="/tic" className="dropdown-item">
                     Tic-Tak-Toe
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/rps" className="dropdown-item">
                     Rock-Paper-Scissors
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="nav-item">
