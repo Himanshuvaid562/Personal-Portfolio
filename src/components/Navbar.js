@@ -42,7 +42,6 @@ export default function Navbar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -50,28 +49,28 @@ export default function Navbar() {
                 Projects
               </a>
               <ul className="dropdown-menu">
-                Under Maintenance
+                Currently unavailable
                 {/* <li>
                   <a className="dropdown-item" href="#">
                     Secure Chatting Web App
                   </a>
                 </li> */}
-                {/* <li>
-                  <Link className="dropdown-item" to="/Curr">
+                <li>
+                  <Link className="dropdown-item" to="./projects/Curr">
                     Currency Convertor
                   </Link>
                 </li>
-                <li></li> */}
-                {/* <li>
-                  <Link to="/tic" className="dropdown-item">
+                <li></li>
+                <li>
+                  <Link to="./projects/tic" className="dropdown-item">
                     Tic-Tak-Toe
                   </Link>
-                </li> */}
-                {/* <li>
-                  <Link to="/rps" className="dropdown-item">
+                </li>
+                <li>
+                  <Link to="./projects/rps" className="dropdown-item">
                     Rock-Paper-Scissors
                   </Link>
-                </li> */}
+                </li>
               </ul>
             </li>
             <li className="nav-item">
