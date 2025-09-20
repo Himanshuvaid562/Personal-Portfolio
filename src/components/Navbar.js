@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchNavigator from "./SearchNavigator";
 import { motion } from 'framer-motion';
+import './style.css';
 
 export default function Navbar() {
   return (

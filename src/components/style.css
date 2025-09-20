@@ -79,3 +79,7 @@ a:hover{
 .margine{
     margin: 0px;
 }
+
+.navbar-toggler{
+    display: always;
+}
