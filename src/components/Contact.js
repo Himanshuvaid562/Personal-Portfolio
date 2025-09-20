@@ -89,12 +89,17 @@ export default function Contact() {
 
   <textarea
     rows="3"
-    cols="52"
+    cols="5"
     placeholder="Your Message"
     className="center block w-full p-5 rounded-lg bg-gray-900 border border-gray-700 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
     value={message}
     onChange={(e) => setMessage(e.target.value)}
-    style={{justifyContent: "center",alignItems: "center", textAlign: "center"}}
+    style={{justifyContent: "center",alignItems: "center", textAlign: "center", width: '39rem', maxWidth: '50%'}}
+
+    // display: flex;
+    // flex-wrap:wrap;
+    // justify-content: center;
+    // align-items: center;
   ></textarea><br></br>
 
   {error && <p className="text-red-500 text-center">{error}</p>}
