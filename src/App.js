@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -11,7 +11,7 @@ import ProjectFrame from "./components/ProjectFrame";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       
       <Navbar />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/Projects/rps" element={<ProjectFrame file="/Projects/rps.html" />} />
         <Route path="/Projects/Curr" element={<ProjectFrame file="/Projects/Curr.html" />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
