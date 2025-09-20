@@ -63,7 +63,10 @@ img{
     background-color: #081b31;
     color:#fff;
     font-size: 2rem;
-    display: inline;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     border-radius: 1rem;;
 }
